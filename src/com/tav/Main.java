@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int[] arr = { -43, -21, -12, 30, 41, 43, 61, 64, 87, 900, 4000, 10020, 70000, 80000, 100000 };
+        System.out.print("Please enter a number to find: ");
         int target = new Scanner(System.in).nextInt();
         int leftLimit = 0;
         int rightLimit = arr.length - 1;
